@@ -25,7 +25,7 @@ source={require("../../assets/images/vertical-shot-leopard-its-habitat-safari-ok
 
       <Text style={styles.title}>Create Account</Text>
 
-      {/* Поле Full Name */}
+      {/*  Full Name field */}
       <View style={styles.inputContainer}>
         <Ionicons name="person" size={24} color="#888" style={styles.icon} />
         <TextInput
@@ -37,7 +37,7 @@ source={require("../../assets/images/vertical-shot-leopard-its-habitat-safari-ok
         />
       </View>
 
-      {/* Поле Email */}
+      {/*  Email field */}
       <View style={styles.inputContainer}>
         <MaterialIcons name="email" size={24} color="#888" style={styles.icon} />
         <TextInput
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   
   cornerImage: {
     position: "absolute",
-    top: -30, // Сдвигаем немного вверх
+    top: -30, 
     right: -30, 
     width: 130,
     height: 130,
@@ -112,9 +112,9 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     backgroundColor: "#f9f9f9",
         // shadow
-        shadowColor: "#000", // shadow
+        shadowColor: "#000", 
         shadowOpacity: 0.1, 
-        shadowRadius: 20, // Размытие
+        shadowRadius: 20, 
         elevation: 5,
   },
   

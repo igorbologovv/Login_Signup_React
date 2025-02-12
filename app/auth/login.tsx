@@ -62,10 +62,10 @@ export default function LoginView() {
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", padding: 20, backgroundColor: "#fff" },
 
-  // Декоративное изображение в углу
+ 
   cornerImage: {
     position: "absolute",
-    top: -30, // Сдвигаем немного вверх
+    top: -30, 
     right: -30, 
     width: 130,
     height: 130,
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     // shadow
     shadowColor: "#000", // shadow
     shadowOpacity: 0.1, 
-    shadowRadius: 20, // Размытие
+    shadowRadius: 20, 
     elevation: 5,
   },
   
